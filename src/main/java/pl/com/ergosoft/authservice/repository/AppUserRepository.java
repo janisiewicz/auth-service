@@ -1,8 +1,8 @@
-package pl.com.ergosoft.authserver.repository;
+package pl.com.ergosoft.authservice.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import pl.com.ergosoft.authserver.model.AppUser;
+import pl.com.ergosoft.authservice.model.AppUser;
 
 @Repository
 public interface AppUserRepository extends JpaRepository<AppUser, Long> {

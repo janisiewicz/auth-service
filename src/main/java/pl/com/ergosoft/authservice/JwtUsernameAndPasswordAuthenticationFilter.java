@@ -1,4 +1,4 @@
-package pl.com.ergosoft.authserver;
+package pl.com.ergosoft.authservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;

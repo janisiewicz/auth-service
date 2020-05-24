@@ -1,4 +1,4 @@
-package pl.com.ergosoft.authserver;
+package pl.com.ergosoft.authservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

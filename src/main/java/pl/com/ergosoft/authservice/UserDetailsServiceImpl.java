@@ -1,4 +1,4 @@
-package pl.com.ergosoft.authserver;
+package pl.com.ergosoft.authservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -9,8 +9,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import pl.com.ergosoft.authserver.model.AppUser;
-import pl.com.ergosoft.authserver.repository.AppUserRepository;
+import pl.com.ergosoft.authservice.model.AppUser;
+import pl.com.ergosoft.authservice.repository.AppUserRepository;
 
 import java.util.List;
 

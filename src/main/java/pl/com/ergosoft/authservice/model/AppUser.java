@@ -1,4 +1,4 @@
-package pl.com.ergosoft.authserver.model;
+package pl.com.ergosoft.authservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
