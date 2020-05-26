@@ -1,4 +1,4 @@
-package pl.com.ergosoft.authservice;
+package pl.com.ergosoft.authservice.config;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;

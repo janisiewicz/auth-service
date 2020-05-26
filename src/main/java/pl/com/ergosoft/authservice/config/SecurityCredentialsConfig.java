@@ -1,4 +1,4 @@
-package pl.com.ergosoft.authservice;
+package pl.com.ergosoft.authservice.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import pl.com.ergosoft.authservice.JwtUsernameAndPasswordAuthenticationFilter;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -24,6 +25,7 @@ public class SecurityCredentialsConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+
         http
                 .csrf().disable()
                 // make sure we use stateless session; session won't be used to store user's state.
